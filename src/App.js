@@ -19,6 +19,7 @@ function App() {
   }
   return (
     <div className="container">
+      <h1>Type a Message :</h1>
       <Form onSubmit={onFormSubmit}>
         <FormGroup>
           <Label>Add Comment  :</Label>
