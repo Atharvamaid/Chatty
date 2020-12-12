@@ -13,7 +13,8 @@ function App() {
   const onFormSubmit = (e) => {
     e.preventDefault();
     const msgRef = firestore.collection("Users").add({
-      "Name" : value
+      "Name" : value,
+      "date" : new Date()
     })
     setValue("");
   }
