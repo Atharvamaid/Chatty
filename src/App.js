@@ -19,7 +19,7 @@ function App() {
     setValue("");
   }
   return (
-    <div className="container">
+    <div className="container mt-4">
       <h1>Type a Message :</h1>
       <Form onSubmit={onFormSubmit}>
         <FormGroup>
